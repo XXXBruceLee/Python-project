@@ -43,13 +43,12 @@ This project provides visualizations to explore economic trends:
 
   <img src="https://github.com/user-attachments/assets/cae57939-cff8-4433-b201-66cc542b5d21" alt="GDP Composition" width="800"/>
 
-  This visualization illustrates how the **composition of GDP** (household consumption, investment, government spending, exports, and imports)  
-has changed over time. By analyzing these proportions, we can observe how the share of consumption, investment, exports, etc., has changed over time and compare the **economic structures** of different countries.
+  This visualization illustrates how the **composition of GDP** (household consumption, investment, government spending, exports, and imports) has changed over time. By analyzing these proportions, we can observe how the share of consumption, investment, exports, etc., has changed over time and compare the **economic structures** of different countries.
 
   
-### - Trends in GDP Composition Over Time for Each Country
+### - Trends in GDP Composition Over Time
 
-  <img src="https://github.com/user-attachments/assets/15d05492-a9ac-481f-b38f-edeec3ae7781" alt="GDP Composition Trend" width="800"/>
+  <img src="https://github.com/user-attachments/assets/b96cea01-3c12-430a-b3b4-7ac88f40f1fc" alt="Trends in GDP Composition" width="800"/>
 
   Unlike the previous chart, this line graph highlights **how these GDP components evolve over time**. It allows us to analyze **long-term economic transformations** and detect shifts in economic strategy.
 
@@ -58,7 +57,13 @@ has changed over time. By analyzing these proportions, we can observe how the sh
 
   <img src="https://github.com/user-attachments/assets/69892e95-5281-423f-9f36-a7a323f83d1a" alt="GDP Composition Comparison" width="800"/>
 
-  This bar chart compares the **average proportion of GDP components** for **China, Japan, and South Korea**. By analyzing these differences, we can can determine whether a country’s economy is **consumption-driven, investment-driven, or export-driven*  and compare **government spending, investment, and trade dependency** across nations. This visualization provides insights into the **structural differences between the economies** of these three East Asian nations.
+  This bar chart compares the **average proportion of GDP components** for the three countries. By analyzing these differences, we can determine whether a country’s economy is **consumption-driven, investment-driven, or export-driven**  and compare **government spending, investment, and trade dependency** across nations. This visualization provides insights into the **structural differences between their economies.**
+
+---
+The insights gained from the above analyses and  visualizations serve as a foundation for the **ARIMA model**:
+- **Identifying patterns:** The visualizations help detect patterns in GDP and its components, which ARIMA uses for accurate forecasting.
+- **Understanding key drivers:** By analyzing GDP components, we can better interpret the ARIMA predictions, linking future GDP growth to specific factors like exports or government spending.
+- **Improving forecasting reliability:** The background analysis ensures that ARIMA is not just a "black box" model, but is supported by clear economic insights.
 
 
 ## 👥 Team Members
