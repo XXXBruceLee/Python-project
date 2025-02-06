@@ -8,6 +8,21 @@ It allows for insights into economic trends over time, helping users visualize k
 
 To predict future GDP trends, we use the **ARIMA (AutoRegressive Integrated Moving Average) model**, a widely used statistical model for time series forecasting. By applying ARIMA to historical GDP data, we can generate reliable forecasts and observe economic patterns over time.
 
+### ✅ GDP Calculation Formula
+In this project, GDP is calculated using the expenditure approach, which sums up the following components:
+
+\[
+GDP = C + I + G + (X - M)
+\]
+
+Where:
+- **C** = Consumer spending (Household consumption)
+- **I** = Private investment (Gross investment)
+- **G** = Government spending
+- **X - M** = Net exports (Exports - Imports)
+
+The formula provides a comprehensive view of how different sectors (household, investment, government, and foreign trade) contribute to a country's GDP.
+
 
 ## 🛠 Technologies Used
 - **Python 3.x**
